@@ -1,0 +1,333 @@
+
+*{
+    box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 16px;
+    line-height: 26px;
+    background: #F3F5F8;
+}
+.header {
+    background: #3042E2;
+    color: #ffffff;
+}
+nav ul {
+    list-style:none;
+}
+
+body::after {
+    background-image: url(../images/top-humans.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom left;
+}
+
+
+button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.title {
+    color: #ffffff;
+}
+.container {
+    max-width: 1370px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.top__cont {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 78px;
+}
+
+.menu__list{
+    display: flex;
+}
+
+.link-main {
+    border-bottom: 2px solid white;
+}
+.menu__list-item + .menu__list-item{
+    margin-left: 24px;
+}
+.menu__list-link{
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 600;
+    text-decoration: none;
+    padding-bottom: 7px;
+}
+
+
+.user-nav{
+    margin-left: 52px;
+    margin-right: 13px;
+}
+
+
+/* .user-nav__link{
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    padding: 11px 23px;
+    text-decoration: none;
+} */
+
+.user-nav__link{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: inline-block;
+    color: #ffffff;
+    padding-left: 25px;
+    position: relative;
+    text-decoration: none;
+}
+
+
+.user-nav__link::before {
+    content: "";
+    position: absolute;
+    right: 70px;
+    top: 2px;
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/login-icon.svg);
+    background-repeat: no-repeat;
+}
+
+.cv-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    color: #3042E2;
+    margin-top: 48px;
+}
+
+
+
+.cv-form {
+    display: flex;
+    flex-direction: column;
+}
+.personal-info__title {
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #3042E2;
+}
+.about-label{
+    padding-bottom: 120px;
+}
+.photo-upload {
+    margin-top: 20px;
+    margin-right: 145px;
+}
+
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 57%;
+    white-space: nowrap;
+}
+
+.input-group > label {
+    font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+
+}
+
+.input-field {
+    width: 400px;
+height: 60px;
+border: 1px solid #3042E2;
+border-radius: 10px;
+padding-left: 20px;
+margin-top: 10px;
+margin-left: 115px;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+background: #F3F5F8;
+
+}
+
+.money-select {
+    height: 60px;
+    margin-top: 10px;
+    border: 1px solid #3042E2;
+    border-radius: 0 10px 10px 0;
+    text-align: center;
+    font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+background: #F3F5F8;
+}
+
+#salary {
+    width: 288px;
+    margin-left: 260px;
+    border-radius: 10px 0 0 10px;
+}
+.gender-group {
+    margin-top: 25px;
+    padding-right: 305px;
+}
+.gender-select {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-group > .input-field {
+    height: 150px;
+}
+
+.exp-group {
+    padding-right: 235px;
+}
+
+.achieve-group {
+    display: flex;
+    align-items: flex-start;
+}
+
+.achieve-fields {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-btn {
+    display: flex;
+    justify-content: center;
+    margin-right: 350px;
+    cursor: pointer;
+}
+.submit-btn > input {
+    width: 256px;
+    height: 60px;
+    width: 256px;
+    height: 60px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background: #3042E2;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+}
+
+#graduation {
+    width: 70px;
+    margin-right: 330px;
+}
+
+.graduation-end {
+    display: flex;
+}
+
+#workplace {
+    background: #3042E2;
+border: 1px solid #3042E2;
+width: 227px;
+height: 60px;
+color: white;
+text-align: center;
+border-radius: 10px;
+margin-right: 172px;
+font-weight: 400;
+cursor: pointer;
+}
+
+#workplace:active {
+    background: #5a67da;
+}
+.accordion-panel {
+    display: none;
+    overflow: hidden;
+}
+
+.workstart-select, .workend-select {
+    height: 60px;
+    margin-top: 10px;
+    border: 1px solid #3042E2;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    background: #F3F5F8;
+    margin-left: 191px;
+    width: 95px;
+}
+
+.workend-select {
+    margin-left: 150px;
+}
+
+.workstart-year, .workend-year {
+    height: 60px;
+    margin-top: 10px;
+    border: 1px solid #3042E2;
+    border-radius: 0 10px 10px 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    background: #F3F5F8;
+    margin-right: 238px;
+    width: 68px;
+}
+.workend-year {
+    margin-right: 240px;
+}
+
+
+

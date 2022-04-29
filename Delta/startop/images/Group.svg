@@ -1,0 +1,36 @@
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_105_858" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="160" height="320">
+<path d="M160 320C117.565 320 76.8687 303.143 46.8629 273.137C16.8571 243.131 -1.18045e-06 202.435 0 160C1.18045e-06 117.565 16.8571 76.8687 46.8629 46.8629C76.8687 16.8571 117.565 -5.06028e-07 160 0L160 160L160 320Z" fill="url(#paint0_radial_105_858)"/>
+</mask>
+<g mask="url(#mask0_105_858)">
+<circle cx="160" cy="160" r="160" fill="url(#paint1_radial_105_858)"/>
+</g>
+<mask id="mask1_105_858" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="160" y="0" width="160" height="320">
+<path d="M160 0C202.435 1.85488e-06 243.131 16.8571 273.137 46.8629C303.143 76.8687 320 117.565 320 160C320 202.435 303.143 243.131 273.137 273.137C243.131 303.143 202.435 320 160 320L160 160L160 0Z" fill="url(#paint2_radial_105_858)"/>
+</mask>
+<g mask="url(#mask1_105_858)">
+<circle cx="160" cy="160" r="160" transform="rotate(-180 160 160)" fill="url(#paint3_radial_105_858)"/>
+</g>
+<path d="M160 50C145.555 50 131.251 52.8452 117.905 58.3733C104.559 63.9013 92.4327 72.0038 82.2183 82.2183C72.0038 92.4327 63.9013 104.559 58.3733 117.905C52.8452 131.251 50 145.555 50 160C50 174.445 52.8452 188.749 58.3733 202.095C63.9013 215.441 72.0038 227.567 82.2183 237.782C92.4327 247.996 104.559 256.099 117.905 261.627C131.251 267.155 145.555 270 160 270L160 160L160 50Z" fill="#1524B4"/>
+<path d="M160 270C174.445 270 188.749 267.155 202.095 261.627C215.441 256.099 227.567 247.996 237.782 237.782C247.996 227.567 256.099 215.441 261.627 202.095C267.155 188.749 270 174.445 270 160C270 145.555 267.155 131.251 261.627 117.905C256.099 104.559 247.996 92.4327 237.782 82.2182C227.567 72.0038 215.441 63.9013 202.095 58.3732C188.749 52.8452 174.445 50 160 50L160 160L160 270Z" fill="#C58026"/>
+<path d="M160 60C146.868 60 133.864 62.5866 121.732 67.612C109.599 72.6375 98.5752 80.0035 89.2893 89.2893C80.0035 98.5752 72.6375 109.599 67.612 121.732C62.5866 133.864 60 146.868 60 160C60 173.132 62.5866 186.136 67.612 198.268C72.6375 210.401 80.0035 221.425 89.2893 230.711C98.5752 239.997 109.599 247.362 121.732 252.388C133.864 257.413 146.868 260 160 260L160 160L160 60Z" fill="#3042E2"/>
+<path d="M160 260C186.522 260 211.957 249.464 230.711 230.711C249.464 211.957 260 186.522 260 160C260 133.478 249.464 108.043 230.711 89.2893C211.957 70.5357 186.522 60 160 60L160 160L160 260Z" fill="#FDA22A"/>
+<defs>
+<radialGradient id="paint0_radial_105_858" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(160 160) rotate(90) scale(160)">
+<stop stop-color="#3042E2"/>
+<stop offset="1" stop-color="#3042E2"/>
+</radialGradient>
+<radialGradient id="paint1_radial_105_858" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(160 160) rotate(90) scale(160)">
+<stop stop-color="#3042E2"/>
+<stop offset="1" stop-color="#3042E2" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint2_radial_105_858" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(160 160) rotate(-90) scale(160)">
+<stop stop-color="#3042E2"/>
+<stop offset="1" stop-color="#3042E2"/>
+</radialGradient>
+<radialGradient id="paint3_radial_105_858" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(160 160) rotate(90) scale(160)">
+<stop stop-color="#FDA22A"/>
+<stop offset="1" stop-color="#FDA22A" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

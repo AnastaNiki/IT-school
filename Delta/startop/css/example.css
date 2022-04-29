@@ -1,0 +1,334 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 16px;
+    line-height: 26px;
+    background: #F3F5F8;
+    text-decoration: none;
+}
+.header {
+    background: #3042E2;
+    color: #ffffff;
+}
+nav ul {
+    list-style:none;
+}
+
+body::after {
+    background-image: url(../images/top-humans.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom left;
+}
+
+
+button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.btn {
+    cursor: pointer;
+}
+.title {
+    color: #ffffff;
+}
+.container {
+    max-width: 1370px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.top__cont {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 78px;
+}
+
+.menu__list{
+    display: flex;
+}
+
+.link-main {
+    border-bottom: 2px solid white;
+}
+.menu__list-item + .menu__list-item{
+    margin-left: 24px;
+}
+.menu__list-link{
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 600;
+    text-decoration: none;
+    padding-bottom: 7px;
+}
+
+
+.user-nav{
+    margin-left: 52px;
+    margin-right: 13px;
+}
+
+
+/* .user-nav__link{
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    padding: 11px 23px;
+    text-decoration: none;
+} */
+
+.user-nav__link{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: inline-block;
+    color: #ffffff;
+    padding-left: 25px;
+    position: relative;
+    text-decoration: none;
+}
+
+
+.user-nav__link::before {
+    content: "";
+    position: absolute;
+    right: 70px;
+    top: 2px;
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/login-icon.svg);
+    background-repeat: no-repeat;
+}
+
+.nap {
+    height: 160px;
+    background-image: url(../images/profile-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.flex-cont {
+    display: flex;
+    max-width: 1370px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main-sidebar {
+    width: 30%;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-right: 4px solid #EDEDED;
+}
+
+.profile-pic {
+    background-image: url("../images/egor-profile.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 130px;
+    left: 270px;
+}
+
+.profile-name {
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+font-size: 32px;
+line-height: 38px;
+margin-top: 44px;
+}
+
+.profile-heading {
+    margin: auto;
+    width: 100%;
+    font-size: 20px;
+line-height: 23px;
+    color: #3042E2;
+}
+
+.profile-about {
+    width: 100%;
+    padding-left: 35px;
+}
+
+.hor-line {
+    margin-top: 24px;
+    height: 4px;
+}
+
+.inform-heading {
+    width: 100%;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    padding-left: 35px;
+    margin-top: 24px;
+}
+
+.inform-body {
+    padding-left: 35px;
+}
+.inform-body__links {
+    margin-left: 35px;
+}
+.inform-body__links > a {
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    height: 32px;
+line-height: 19px;
+color: #1D1C2A;
+text-decoration: none;
+border: 1px solid transparent;
+line-height: 19px;
+background: #DDE2EB;
+white-space: nowrap;
+padding: 5px 20px;
+margin: 5px 3px;
+}
+
+.last-body {
+    padding-bottom: 300px;
+}
+.pdf-load, .sidebar-share {
+    height: 51px;
+    width: 51px;
+    margin-top: 20px;
+}
+
+/*.pdf-load {
+    margin-left: 24px;
+    background-image: url(../images/pdf-image.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sidebar-share {
+    margin-right: 24px;
+    background-image: url(../images/share-icon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+.pdf-load{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.sidebar-share{
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.nav {
+    height: 80px;
+    width: 100%;
+    -webkit-box-shadow: -4px 17px 33px -24px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: -4px 17px 33px -24px rgba(34, 60, 80, 0.2);
+box-shadow: -4px 17px 33px -24px rgba(34, 60, 80, 0.2);
+}
+
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #3042E2;
+    height: 100%;
+    align-items: center;
+    background: white;
+}
+
+.nav-list, a {
+    color: #3042E2;
+    text-decoration: none;
+}
+
+.link-active {
+    border-bottom: 3px solid #3042E2;
+}
+
+.right-section {
+    width: 70%;
+    height: 100%;
+}
+
+.main-columns {
+display: flex;
+}
+
+.left-column {
+    width: 50%;
+    height: 100px;
+}
+
+.right-column {
+    width: 50%;
+    height: 100px;
+}
+
+.blok-inf {
+    margin: 20px 20px;
+    padding: 20px 42px 22px;
+    width: 418px;
+    height: auto;
+    background: #FFFFFF;
+    border: 0px;
+    border-radius: 13.9535px;
+    color: #1D1C2A;
+    font-family: 'Raleway';
+    font-size: 16px;
+    line-height: 26px;
+    -webkit-box-shadow: 3px 5px 11px -1px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 3px 5px 11px -1px rgba(34, 60, 80, 0.2);
+    box-shadow: 3px 5px 11px -1px rgba(34, 60, 80, 0.2);
+}
