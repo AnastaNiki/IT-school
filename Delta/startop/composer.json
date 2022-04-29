@@ -1,0 +1,14 @@
+{
+  "name": "vendor_name/tula",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "kheay",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  }
+}
